@@ -30,7 +30,11 @@ class SinglyLinkedList
         bool InsertAfterPosition(const Type&, size_t);
         bool Delete(const Type&);
         void Print(std::ostream&) const;
-        template <class SType> friend std::ostream& operator<<(std::ostream&, const SinglyLinkedList<Type>&);
+        
 };
+
+// Overloading the ostream operator
+// most helpful post: http://www.cplusplus.com/forum/general/33886/
+template <class Type> std::ostream& operator<<(std::ostream&, const SinglyLinkedList<Type>&);
 
 #endif

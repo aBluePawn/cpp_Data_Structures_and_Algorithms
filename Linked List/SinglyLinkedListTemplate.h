@@ -123,8 +123,8 @@ void SinglyLinkedList<Type>::Print(std::ostream& outStream) const
     }
 }
 
-template <class SType>
-std::ostream& operator<<(std::ostream& outStream, const SinglyLinkedList<SType>& list)
+template <class Type>
+std::ostream& operator<<(std::ostream& outStream, const SinglyLinkedList<Type>& list)
 {
     list.Print(outStream);
     return outStream;
