@@ -3,6 +3,11 @@
 
 C++ practice, implementing some data structures and algorithms, using class templates.
 
-Content:
-    Linked List:
+## Content:
+
+   ### Linked List:
+    
         * Single Linked List
+        
+        
+###### Compiled with MinGW 6.3.0
