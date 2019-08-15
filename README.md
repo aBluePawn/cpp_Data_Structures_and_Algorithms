@@ -6,3 +6,5 @@ C++ practice, implementing some data structures and algorithms, using class temp
 Content:
     Linked List:
         * Single Linked List
+    Stack
+        * Using a Linked List as container
