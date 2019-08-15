@@ -1,4 +1,4 @@
-# Singly Linked LIst
+# Singly Linked List
 ## C++ implementation of a singly linked list
 
 The singly linked list, that can be used to implement different data structures.
